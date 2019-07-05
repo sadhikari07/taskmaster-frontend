@@ -25,10 +25,10 @@ function Task() {
     <ul>
       {task.map( (listedTask) =>
         <li key={listedTask.taskId}>
-              <p>Task: {listedTask.title}</p>
-              <p>Description: {listedTask.description}</p> 
-              <p>Status: {listedTask.status}</p>
-              <p>Assignee: {listedTask.assignee}</p>
+                <p>Task: {listedTask.title}</p>
+                <p>Description: {listedTask.description}</p> 
+                <p>Status: {listedTask.status}</p>
+                <p>Assignee: {listedTask.assignee}</p>
         </li>
       )}
     </ul>
