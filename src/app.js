@@ -4,7 +4,7 @@ import './header'
 import Header from './header';
 import Footer from './footer';
 
-const API = 'http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
+const API = 'https://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
 
 function Task() {
 
