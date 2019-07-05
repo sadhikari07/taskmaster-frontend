@@ -2,7 +2,8 @@
 This application connects the task master back end to the users with the help of amazon AWS amplify console. In this application a user can to visit the homepage (https://master.d2rav4y8xcvo3g.amplifyapp.com/) and see the list of all tasks available in the database.
 
 ## Screenshot of the app:
-!(app_screenshot)[https://raw.githubusercontent.com/sadhikari07/taskmaster-frontend/master/deployedTaskManager.png]
+
+![app_screenshot](https://raw.githubusercontent.com/sadhikari07/taskmaster-frontend/master/deployedTaskManager.png)
 
 ## Link to the deployed site: 
 https://master.d2rav4y8xcvo3g.amplifyapp.com/
