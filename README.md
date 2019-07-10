@@ -1,3 +1,22 @@
+# Description of application:
+This application connects the task master back end to the users with the help of amazon AWS amplify console. In this application a user can to visit the homepage (https://master.d2rav4y8xcvo3g.amplifyapp.com/) and see the list of all tasks available in the database.
+
+## Screenshot of the app:
+
+![app_screenshot](https://raw.githubusercontent.com/sadhikari07/taskmaster-frontend/master/deployedTaskManager.png)
+
+## Link to the deployed site: 
+https://master.d2rav4y8xcvo3g.amplifyapp.com/
+
+## Link to the back end repo:
+https://github.com/sadhikari07/taskmaster
+
+## Referemnces:
+ - https://github.com/codefellows/seattle-java-401d4/tree/master/class-28/demo/floaty-store
+ - https://www.ifixit.com/Help/Header_and_Footer_Styling
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
