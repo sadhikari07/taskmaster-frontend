@@ -24,7 +24,6 @@ footer{
   width: 100%;
   text-align: center;
   font-size: 2em;
-  position: absolute;
   bottom: 0;
 }
 
@@ -47,4 +46,8 @@ ul{
       color: blue;
     }
   }
+}
+.bigImage{
+  height: 150px;
+  width: 150px;
 }

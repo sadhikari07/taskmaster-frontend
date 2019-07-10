@@ -4,7 +4,8 @@ import './header'
 import Header from './header';
 import Footer from './footer';
 
-const API = 'http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
+// const API = 'http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
+const API = "http://localhost:5000/tasks";
 
 function Task() {
 
@@ -29,6 +30,15 @@ function Task() {
                 <p>Description: {listedTask.description}</p> 
                 <p>Status: {listedTask.status}</p>
                 <p>Assignee: {listedTask.assignee}</p>
+                <img class ="bigImage" alt = " " src = {`${listedTask.pic}`}/> 
+                <img alt = " " src = {`${listedTask.picResized}`}/> 
+                <form action={`${API}/${listedTask.taskId}/images`} method="post" encType="multipart/form-data">
+                  <label>
+                    <span>Upload Image</span>
+                    <input name="file" type="file" />
+                  </label>
+                  <button>Save</button>
+              </form>
         </li>
       )}
     </ul>
@@ -42,7 +52,6 @@ function App() {
       <main>
         <Task/>
       </main>
-      <Footer/>
       </>
   );
 }
