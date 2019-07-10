@@ -11,6 +11,9 @@ We’ll use it today to automatically run some processing on image files after t
 - Your server should return both the full-size and the thumbnail-size URLs for each image associated with a task.
 
 ## Description of how to use lambda:
+- Go to http://taskmasterfrontend.s3-website-us-east-1.amazonaws.com/
+- Upload an image to a task
+- Once image is uploaded lambda will automatically upload a thumbnail version of that image.
 
 
 ## Link to the deployed application:
