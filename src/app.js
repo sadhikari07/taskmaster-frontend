@@ -2,10 +2,9 @@ import React, {useState, useEffect} from 'react';
 import './app.scss';
 import './header'
 import Header from './header';
-import Footer from './footer';
 
-// const API = 'http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
-const API = "http://localhost:5000/tasks";
+const API = 'http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks'
+// const API = "http://localhost:5000/tasks";
 
 function Task() {
 
@@ -21,7 +20,6 @@ function Task() {
   };
 
     useEffect(_getTask, []);
-
   return (
     <ul>
       {task.map( (listedTask) =>
