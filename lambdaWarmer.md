@@ -16,6 +16,10 @@ CloudWatch Timer:
 
 //Reference: https://read.acloud.guru/how-to-keep-your-lambda-functions-warm-9d7e1aa6e2f0
 
+## Link to the deployed application:
+- API: http://taskmaster-dev-cname.us-east-2.elasticbeanstalk.com/tasks
+- Deployed Front-end:http://taskmasterfrontend.s3-website-us-east-1.amazonaws.com/ 
+
 ## Screenshot of LambdaWaremer:
 ![LambdaWarmer](https://raw.githubusercontent.com/sadhikari07/taskmaster-frontend/master/assets/Screen%20Shot%202019-07-12%20at%2011.07.45%20AM.png)
 
